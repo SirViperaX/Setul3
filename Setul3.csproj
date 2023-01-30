@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problema26.cs" />
+    <Compile Include="Probleme\Problema26.cs" />
     <Compile Include="Probleme\Problema1.cs" />
     <Compile Include="Probleme\Problema10.cs" />
     <Compile Include="Probleme\Problema11.cs" />
+    <Compile Include="Probleme\Problema12.cs" />
+    <Compile Include="Probleme\Problema13.cs" />
+    <Compile Include="Probleme\Problema14.cs" />
+    <Compile Include="Probleme\Problema15.cs" />
+    <Compile Include="Probleme\Problema16.cs" />
+    <Compile Include="Probleme\Problema17.cs" />
+    <Compile Include="Probleme\Problema18.cs" />
+    <Compile Include="Probleme\Problema19.cs" />
     <Compile Include="Probleme\Problema2.cs" />
+    <Compile Include="Probleme\Problema28.cs" />
+    <Compile Include="Probleme\Problema29.cs" />
     <Compile Include="Probleme\Problema3.cs" />
     <Compile Include="Probleme\Problema4.cs" />
     <Compile Include="Probleme\Problema5.cs" />

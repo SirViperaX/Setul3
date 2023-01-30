@@ -8,11 +8,11 @@ namespace Setul3
 {
     public class Problema3
     {
-        public static void p3()
+        public static void P3()
         {
             int i;
             int[] A = Testing.GenerateRandomNumbersInArray();
-            /*int[] A = Testing.GenerateArray();*/
+            /*int[] A = Testing.ReadArrayFromKb();*/
             int max, min, poz_max, poz_min;
             int comparatii = 0;
             if (Testing.n % 2 == 0)

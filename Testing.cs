@@ -44,7 +44,7 @@ namespace Setul3
             return A;
         }
 
-        public static int[] GenerateArray()
+        public static int[] ReadArrayFromKb()
         {
             Console.WriteLine("Introduceti lungimea vectorului:");
             Testing.n = int.Parse(Console.ReadLine());

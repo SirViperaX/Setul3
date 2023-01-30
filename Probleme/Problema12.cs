@@ -4,24 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Setul3
+namespace Setul3.Probleme
 {
-    public class Problema8
+    public class Problema12
     {
-        public static void P8()
+        public static void P12()
         {
             int[] A = Testing.GenerateRandomNumbersInArray();
-            int k = A[0];
             for (int i = 0; i < Testing.n - 1; i++)
             {
-                A[i] = A[i + 1];
+                int min = i;
+                for (int j = i + 1; j < Testing.n; j++)
+                {
+                    if (A[j] < A[min])
+                    {
+                        min = j;
+                    }
+                }
+
+                int temp = A[min];
+                A[min] = A[i];
+                A[i] = temp;
             }
-            A[Testing.n - 1] = k;
             Console.WriteLine();
             for (int i = 0; i < Testing.n; i++)
-            {
                 Console.Write($"{A[i]} ");
-            }
         }
     }
 }

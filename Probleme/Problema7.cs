@@ -8,7 +8,7 @@ namespace Setul3
 {
     public class Problema7
     {
-        public static void p7()
+        public static void P7()
         {
             int[] A = Testing.GenerateRandomNumbersInArray();
             for (int i = 0; i < Testing.n / 2; i++)

@@ -9,7 +9,7 @@ namespace Setul3
 {
     public class Problema9
     {
-        public static void p9()
+        public static void P9()
         {    
             int[] A = Testing.GenerateRandomNumbersInArray();
             Console.WriteLine("Introduceti valoarea lui k:");

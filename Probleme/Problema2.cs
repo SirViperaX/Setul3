@@ -8,7 +8,7 @@ namespace Setul3
 {
     public class Problema2
     {
-        public static void p2()
+        public static void P2()
         {
             Console.WriteLine("Introduceti valoarea cautata:");
             int k = int.Parse(Console.ReadLine());

@@ -8,10 +8,10 @@ namespace Setul3
 {
     public class Problema1
     {
-        public static void p1()
+        public static void P1()
         {
             int[] A = Testing.GenerateRandomNumbersInArray();
-            /*int[] A = Testing.GenerateArray();*/
+            /*int[] A = Testing.ReadArrayFromKb();*/
             Console.WriteLine("Introduceti valori in vector:");
             string[] t = Console.ReadLine().Split(' ');
             int s = 0;
